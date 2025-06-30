@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <>
@@ -27,7 +29,7 @@ export default function Home() {
             {/* Vermicelli Card */}
             <div className="rounded-2xl bg-white/10 backdrop-blur-xl backdrop-saturate-150 p-6 shadow-[0_4px_30px_rgba(0,0,0,0.1)] transition-all duration-300 ease-in-out transform hover:scale-[1.02] hover:shadow-[0_0_15px_rgba(183,149,11,0.2)]">
               <div className="w-full aspect-[2/3] overflow-hidden rounded-xl mb-4">
-                <img src="/vermicelli.png" alt="Vermicelli" className="w-full h-full object-cover" />
+                <Image src="/vermicelli.png" alt="Vermicelli" width={400} height={600} className="w-full h-full object-cover" />
               </div>
               <h3 className="text-xl font-semibold text-white">Fork Theory Vermicelli</h3>
               <p className="text-sm text-[#eaeaea] mt-2">
@@ -38,7 +40,7 @@ export default function Home() {
             {/* Noodles Card */}
             <div className="rounded-2xl bg-white/10 backdrop-blur-xl backdrop-saturate-150 p-6 shadow-[0_4px_30px_rgba(0,0,0,0.1)] transition-all duration-300 ease-in-out transform hover:scale-[1.02] hover:shadow-[0_0_15px_rgba(183,149,11,0.2)]">
               <div className="w-full aspect-[2/3] overflow-hidden rounded-xl mb-4">
-                <img src="/noodles.png" alt="Noodles" className="w-full h-full object-cover" />
+                <Image src="/noodles.png" alt="Noodles" width={400} height={600} className="w-full h-full object-cover" />
               </div>
               <h3 className="text-xl font-semibold text-white">Fork Theory Noodles</h3>
               <p className="text-sm text-[#eaeaea] mt-2">
@@ -49,7 +51,7 @@ export default function Home() {
             {/* Aftermint Card */}
             <div className="rounded-2xl bg-white/10 backdrop-blur-xl backdrop-saturate-150 p-6 shadow-[0_4px_30px_rgba(0,0,0,0.1)] transition-all duration-300 ease-in-out transform hover:scale-[1.02] hover:shadow-[0_0_15px_rgba(183,149,11,0.2)]">
               <div className="w-full aspect-[2/3] overflow-hidden rounded-xl mb-4">
-                <img src="/aftermint.png" alt="Aftermint" className="w-full h-full object-cover" />
+                <Image src="/aftermint.png" alt="Aftermint" width={400} height={600} className="w-full h-full object-cover" />
               </div>
               <h3 className="text-xl font-semibold text-white">Fork Theory Aftermint</h3>
               <p className="text-sm text-[#eaeaea] mt-2">
@@ -74,15 +76,17 @@ export default function Home() {
             </p>
 
             <blockquote className="mt-8 text-[#9A7D0A] italic border-l-4 border-[#B7950B] pl-4 text-sm md:text-base">
-              "Food is not just cooked. It's constructed." – Fork Theory
+              &quot;Food is not just cooked. It&apos;s constructed.&quot; – Fork Theory
             </blockquote>
           </div>
 
           {/* Image or Visual */}
           <div className="rounded-2xl overflow-hidden shadow-lg">
-            <img
+            <Image
               src="/philosophy.png"
               alt="Fork Theory philosophy"
+              width={400}
+              height={600}
               className="w-full h-full object-cover"
             />
           </div>
