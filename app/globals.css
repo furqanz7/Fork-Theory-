@@ -5,13 +5,6 @@
   --foreground: #171717;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -23,4 +16,38 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200%;
+  }
+  50% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 200%;
+  }
+}
+
+.shimmer-text {
+  background: linear-gradient(
+    90deg,
+    #b7950b 0%,
+    #f9e79f 15%,
+    #ffd700 30%,
+    #f9e79f 45%,
+    #b7950b 60%,
+    #f9e79f 75%,
+    #ffd700 90%,
+    #b7950b 100%
+  );
+  background-size: 300% auto;
+  background-position: 0% 50%;
+  color: transparent !important;
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  animation: shimmer 5s ease-in-out infinite;
+  text-shadow: 0 0 30px rgba(183, 149, 11, 0.3);
 }
