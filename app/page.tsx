@@ -18,7 +18,7 @@ export default function Home() {
         </div>
       </main>
 
-      <section className="relative bg-[#121212] py-24 px-6 md:px-20 text-white">
+      <section id="products" className="relative bg-[#121212] py-24 px-6 md:px-20 text-white">
         <div className="absolute inset-0 bg-gradient-to-br from-[#00000080] to-[#2d2d2d80] z-0" />
         <div className="relative z-10">
           <h2 className="text-3xl md:text-5xl font-serif text-center mb-16">
@@ -62,37 +62,6 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-[#F8F5F2] py-24 px-6 md:px-24 text-[#2F2F2F]">
-        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-          
-          {/* Text Content */}
-          <div>
-            <h2 className="text-3xl md:text-5xl font-serif mb-6">
-              Built for Everyday Elegance
-            </h2>
-            <p className="text-base md:text-lg text-[#5E5E5E] leading-relaxed">
-              At Fork Theory, we believe in crafting essentials that carry both comfort and charm.
-              Our recipes are rooted in heritage, but refined with modern precision — offering consistency, quality, and a vintage soul in every batch.
-            </p>
-
-            <blockquote className="mt-8 text-[#9A7D0A] italic border-l-4 border-[#B7950B] pl-4 text-sm md:text-base">
-              &quot;Food is not just cooked. It&apos;s constructed.&quot; – Fork Theory
-            </blockquote>
-          </div>
-
-          {/* Image or Visual */}
-          <div className="rounded-2xl overflow-hidden shadow-lg">
-            <Image
-              src="/philosophy.png"
-              alt="Fork Theory philosophy"
-              width={400}
-              height={600}
-              className="w-full h-full object-cover"
-            />
-          </div>
-        </div>
-      </section>
-
       <section id="about" className="bg-[#F8F5F2] py-24 px-6 md:px-24 text-[#2F2F2F]">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           
@@ -120,56 +89,33 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="products" className="relative bg-[#121212] py-24 px-6 md:px-24 text-white">
-        <div className="absolute inset-0 bg-gradient-to-br from-[#00000080] to-[#2d2d2d80] z-0" />
-        <div className="relative z-10">
-          <h2 className="text-3xl md:text-5xl font-serif text-center mb-16">
-            Why Fork Theory?
-          </h2>
+      <section id="about" className="bg-[#F8F5F2] py-24 px-6 md:px-24 text-[#2F2F2F]">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+          
+          {/* Text Content */}
+          <div>
+            <h2 className="text-3xl md:text-5xl font-serif mb-6">
+              Built for Everyday Elegance
+            </h2>
+            <p className="text-base md:text-lg text-[#5E5E5E] leading-relaxed">
+              At Fork Theory, we believe in crafting essentials that carry both comfort and charm.
+              Our recipes are rooted in heritage, but refined with modern precision — offering consistency, quality, and a vintage soul in every batch.
+            </p>
 
-          <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
-            {/* Card 1 */}
-            <div className="rounded-2xl bg-white/10 backdrop-blur-xl backdrop-saturate-150 p-6 shadow-[0_4px_30px_rgba(0,0,0,0.1)] transition-all duration-300 ease-in-out transform hover:scale-[1.02] hover:shadow-[0_0_15px_rgba(183,149,11,0.2)] text-white">
-              <h3 className="text-lg font-semibold mb-2">Trust & Consistency</h3>
-              <p className="text-sm text-[#dddddd]">
-                Every batch, every time — you get the same quality, taste, and shelf-ready consistency.
-              </p>
-            </div>
-
-            {/* Card 2 */}
-            <div className="rounded-2xl bg-white/10 backdrop-blur-xl backdrop-saturate-150 p-6 shadow-[0_4px_30px_rgba(0,0,0,0.1)] transition-all duration-300 ease-in-out transform hover:scale-[1.02] hover:shadow-[0_0_15px_rgba(183,149,11,0.2)] text-white">
-              <h3 className="text-lg font-semibold mb-2">Healthy Margins</h3>
-              <p className="text-sm text-[#dddddd]">
-                Competitive pricing and transparent MRP/distributor rates = more profit for you.
-              </p>
-            </div>
-
-            {/* Card 3 */}
-            <div className="rounded-2xl bg-white/10 backdrop-blur-xl backdrop-saturate-150 p-6 shadow-[0_4px_30px_rgba(0,0,0,0.1)] transition-all duration-300 ease-in-out transform hover:scale-[1.02] hover:shadow-[0_0_15px_rgba(183,149,11,0.2)] text-white">
-              <h3 className="text-lg font-semibold mb-2">Private Label Option</h3>
-              <p className="text-sm text-[#dddddd]">
-                Sell under Fork Theory or your own brand — we support both with no quality trade-offs.
-              </p>
-            </div>
-
-            {/* Card 4 */}
-            <div className="rounded-2xl bg-white/10 backdrop-blur-xl backdrop-saturate-150 p-6 shadow-[0_4px_30px_rgba(0,0,0,0.1)] transition-all duration-300 ease-in-out transform hover:scale-[1.02] hover:shadow-[0_0_15px_rgba(183,149,11,0.2)] text-white">
-              <h3 className="text-lg font-semibold mb-2">Local Focus, Fast Dispatch</h3>
-              <p className="text-sm text-[#dddddd]">
-                Based in Tamil Nadu with a fast-growing regional distribution network and quick turnaround.
-              </p>
-            </div>
+            <blockquote className="mt-8 text-[#9A7D0A] italic border-l-4 border-[#B7950B] pl-4 text-sm md:text-base">
+              &quot;Food is not just cooked. It&apos;s constructed.&quot; – Fork Theory
+            </blockquote>
           </div>
 
-          {/* CTA */}
-          <div className="text-center mt-16">
-            <a
-              href="https://wa.me/918778678267"
-              target="_blank"
-              className="inline-block bg-[#B7950B] text-white px-6 py-3 rounded-full hover:bg-[#9A7D0A] transition"
-            >
-              Become a Fork Theory Partner
-            </a>
+          {/* Image or Visual */}
+          <div className="rounded-2xl overflow-hidden shadow-lg">
+            <Image
+              src="/philosophy.png"
+              alt="Fork Theory philosophy"
+              width={400}
+              height={600}
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
       </section>
