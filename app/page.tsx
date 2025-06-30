@@ -40,7 +40,7 @@ export default function Home() {
             {/* Noodles Card */}
             <div className="rounded-2xl bg-white/10 backdrop-blur-xl backdrop-saturate-150 p-6 shadow-[0_4px_30px_rgba(0,0,0,0.1)] transition-all duration-300 ease-in-out transform hover:scale-[1.02] hover:shadow-[0_0_15px_rgba(183,149,11,0.2)]">
               <div className="w-full aspect-[2/3] overflow-hidden rounded-xl mb-4">
-                <Image src="/noodles.png" alt="Noodles" width={400} height={600} className="w-full h-full object-cover" />
+                <Image src="/Noodles.png" alt="Noodles" width={400} height={600} className="w-full h-full object-cover" />
               </div>
               <h3 className="text-xl font-semibold text-white">Fork Theory Noodles</h3>
               <p className="text-sm text-[#eaeaea] mt-2">
@@ -51,7 +51,7 @@ export default function Home() {
             {/* Aftermint Card */}
             <div className="rounded-2xl bg-white/10 backdrop-blur-xl backdrop-saturate-150 p-6 shadow-[0_4px_30px_rgba(0,0,0,0.1)] transition-all duration-300 ease-in-out transform hover:scale-[1.02] hover:shadow-[0_0_15px_rgba(183,149,11,0.2)]">
               <div className="w-full aspect-[2/3] overflow-hidden rounded-xl mb-4">
-                <Image src="/aftermint.png" alt="Aftermint" width={400} height={600} className="w-full h-full object-cover" />
+                <Image src="/Aftermint.png" alt="Aftermint" width={400} height={600} className="w-full h-full object-cover" />
               </div>
               <h3 className="text-xl font-semibold text-white">Fork Theory Aftermint</h3>
               <p className="text-sm text-[#eaeaea] mt-2">
