@@ -68,33 +68,6 @@ export default function Home() {
           {/* Text Content */}
           <div>
             <h2 className="text-3xl md:text-5xl font-serif mb-6">
-              About Fork Theory
-            </h2>
-            <p className="text-base md:text-lg text-[#5E5E5E] leading-relaxed">
-              Fork Theory was founded in 2023 with a vision to bring back the authentic taste of traditional Indian cuisine.
-              We are committed to using only the finest ingredients and traditional recipes to create products that are both delicious and nutritious.
-            </p>
-          </div>
-
-          {/* Image or Visual */}
-          <div className="rounded-2xl overflow-hidden shadow-lg">
-            <Image
-              src="/about.png"
-              alt="About Fork Theory"
-              width={400}
-              height={600}
-              className="w-full h-full object-cover"
-            />
-          </div>
-        </div>
-      </section>
-
-      <section id="about" className="bg-[#F8F5F2] py-24 px-6 md:px-24 text-[#2F2F2F]">
-        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-          
-          {/* Text Content */}
-          <div>
-            <h2 className="text-3xl md:text-5xl font-serif mb-6">
               Built for Everyday Elegance
             </h2>
             <p className="text-base md:text-lg text-[#5E5E5E] leading-relaxed">
