@@ -59,6 +59,15 @@ export default function Home() {
               </p>
             </div>
           </div>
+          <div className="text-center mt-16">
+            <a
+              href="https://wa.me/918778678267?text=I%20am%20interested%20in%20becoming%20a%20Fork%20Theory%20partner"
+              target="_blank"
+              className="inline-block bg-[#B7950B] text-white px-6 py-3 rounded-full hover:bg-[#9A7D0A] transition"
+            >
+              Become a Fork Theory Partner
+            </a>
+          </div>
         </div>
       </section>
 
